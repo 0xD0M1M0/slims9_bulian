@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
-                        <a href="index.php?callnumber=2&search=search" class="d-flex flex-column">
+                        <a href="index.php?subject=religion&search=search" class="d-flex flex-column">
                             <img src="<?=  assets('images/2-mosque.png'); ?>" width="80" class="mb-3 mx-auto"/>
                             <?=  __('Religion'); ?>
                         </a>
