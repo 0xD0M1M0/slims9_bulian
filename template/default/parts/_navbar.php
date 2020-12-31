@@ -6,6 +6,7 @@
 # @Last modified by:   user
 # @Last modified time: 2018-01-25T10:29:27+07:00
 
+/*
 $main_menus = [
   'home' => [
     'text' => __('Home'),
@@ -26,6 +27,15 @@ $main_menus = [
   'librarian' => [
     'text' => __('Librarian'),
     'url' => 'index.php?p=librarian'
+  ]
+];
+?>
+*/
+
+$main_menus = [
+  'home' => [
+    'text' => __('Home'),
+    'url' => 'index.php'
   ]
 ];
 ?>
