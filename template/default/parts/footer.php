@@ -36,9 +36,6 @@
               <?php } ?>
                 <div class="mb-4"><?php echo $sysconf['library_name']; ?></div>
                 <ul class="list-reset">
-                    <li><a class="text-light" href="index.php?p=libinfo"><?= __('Information'); ?></a></li>
-                    <li><a class="text-light" href="index.php?p=services"><?= __('Services'); ?></a></li>
-                    <li><a class="text-light" href="index.php?p=librarian"><?= __('Librarian'); ?></a></li>
                     <li><a class="text-light" href="index.php?p=member"><?= __('Member Area'); ?></a></li>
                 </ul>
             </div>
@@ -64,13 +61,6 @@
                         </div>
                     </div>
                 </form>
-                <hr>
-                <a target="_blank" title="Support Us" class="btn btn-outline-success mb-2"
-                   href="https://slims.web.id/web/pages/support-us/"><i
-                            class="fas fa-heart mr-2"></i><?= __('Keep SLiMS Alive'); ?></a>
-                <a target="_blank" title="Contribute" class="btn btn-outline-light mb-2"
-                   href="https://github.com/slims/"><i
-                            class="fab fa-github mr-2"></i><?= __('Want to Contribute?'); ?></a>
             </div>
         </div>
         <hr>
