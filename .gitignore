@@ -16,7 +16,7 @@ cache/*
 .project
 .idea
 .vscode
-.htaccess
+
 sysconfig.local.inc.php
 config/sysconfig.local.inc.php
 sysconfig.inc.php
@@ -47,3 +47,4 @@ $RECYCLE.BIN/
 
 /vendor/
 composer.lock
+.htaccess
